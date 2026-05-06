@@ -1,7 +1,11 @@
-### ArUco Close-up Detection with Camera Calibration V3.0
-### 版本更新日志：
-# V3.0 (2024-06-01):
-
+""" ArUco Close-up Detection with Camera Calibration V3.0
+版本更新日志：
+V3.0 (2024-06-01): 
+- 重新设计了代码结构，增加了类封装，提升代码可读性和维护性。
+- 添加了相机内参加载功能，支持从标定结果直接使用内参进行位姿估计。
+- 增加了实时焦距控制功能，允许用户通过键盘调整焦距以获得最佳清晰度。
+- 优化了检测结果的显示，增加了每个标记的角点坐标和姿态信息显示。
+"""
 import cv2
 import numpy as np
 
