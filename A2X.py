@@ -1,4 +1,5 @@
-### ArUco Close-up Detection with Camera Calibration V3.0
+# ArUco Close-up Detection with Camera Calibration V3.0
+# Version 3.0 - 2024-06-01
 
 import cv2
 import numpy as np
