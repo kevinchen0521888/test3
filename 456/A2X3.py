@@ -1,12 +1,4 @@
 ### ArUco Close-up Detection with Camera Calibration V3.0
-### Test v2
-### Test v3 - 修复了OpenCV版本兼容性问题，增强了控制台输出信息，添加了畸变校正选项，并优化了用户交互体验。
-### Test v4 - Test branch
-### 2024-06-30
-### 主要功能：6
-### web test
-### 1. 45行：修复了OpenCV版本兼容性问题，增强了坐标轴绘制的鲁棒性。
-### 2. 60-80行：新增了控制台输出完整的检测信息（包括每个标记的ID、角点坐标、旋转向量和平移向量），并且仅在检测到的ID集合发生变化时打印，避免过于频繁的输出。
 
 import cv2
 import numpy as np
